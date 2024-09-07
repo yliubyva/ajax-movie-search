@@ -1,0 +1,4 @@
+.search-container {
+    @include flex(column, nowrap, flex-start, center);
+    gap: 10px;
+}

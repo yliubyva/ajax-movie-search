@@ -1,0 +1,16 @@
+.header {
+    background: url(/assets/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 300px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    &__title {
+        @include text(60px, 600, $color-text);
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+}
