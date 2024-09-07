@@ -1,0 +1,6 @@
+.movies {
+    margin: 40px auto;
+    @include flex(row, wrap, center);
+    gap: 20px;
+    max-width: 1170px; 
+}

@@ -9,6 +9,15 @@
   }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-main;
+    background-color: $color-bg-body;
+}
+
 button,
 a {
   cursor: pointer;
@@ -32,4 +41,5 @@ textarea {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }

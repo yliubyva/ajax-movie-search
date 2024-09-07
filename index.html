@@ -7,6 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <h1 class="header__title">Search your movie here!</h1>
+    </header>
+    <main class="main">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter movie title" class="input input--search">
+            <select id="typeSelect" class="input">
+                <option value="">All</option>
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select>
+            <button id="searchButton" class="button button--search">Search</button> 
+        </div>
+        <div id="moviesGrid" class="movies"></div>
+        <div id="pagination" class="pagination"></div>
+        <div id="details" class="details"></div>
+    </main>
     <script src="/src/js/main.js"></script>
 </body>
 </html>
